@@ -71,7 +71,7 @@ while True:
 			if ( GPIO.input(letterPin) == True ): # if the switch is now unpressed
 				print "Button released..."
 				sleep(2) # wait for 2 seconds to give the postperson a chance to get the letter through the letterbox, and for the letter to land
-				os.system("raspistill -w 600 -h 450 -o /home/pi/Raspberry-Pi-Twitter-Postbox/post.jpg") # take a photo and save it as 'post.jpg' in the Raspberry-Pi-Twitt$
+				os.system("raspistill -w 600 -h 450 -o /home/pi/Twitter-Post-Bot/post.jpg") # take a photo and save it as 'post.jpg' in the Twitter-Post-Bot folder
 				print "Photo taken.."
 				emailme() # call the email function
 				break
