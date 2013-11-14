@@ -4,7 +4,6 @@
 import RPi.GPIO as GPIO
 from time import sleep
 import os
-import picamera
 import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
